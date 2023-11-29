@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+
+/*Header*/
+.header {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 70px;
+  padding: 10px 10px 0 10px;
+  background-color: rgb(70, 146, 227);
+}
+
+.header__box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.header__title {
+  margin: 0;
+  color: white;
+  font-size: clamp(1.625rem, 1.458rem + 0.72vw, 2rem);
+}
+
+/*Main*/
+.main {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  background: url(../assets/bg-winter.avif) no-repeat center fixed;
+  background-size: 100% 100%;
+}
+
+.main__box {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+.main__content {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px 0 10px;
+  position: relative;
+}
+
+/*Sun*/
+.sun-box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  transform: translateX(-50%);
+  animation: sun 4s ease infinite;
+  transform: rotate(0);
+}
+
+@keyframes sun {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sun {
+  width: 100%;
+  height: 100%;
+}
+
+/*Christmas tree*/
+.christmas-tree-box {
+  width: 350px;
+  height: 700px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.christmas-tree {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Ballons*/
+.ballons-box {
+  width: 350px;
+  height: 700px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ballons {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(70, 146, 227);
+}
+
+.footer-item {
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+<svg  viewBox="0 0 350 700"  xmlns="http://www.w3.org/2000/svg">
+<g fill="yellow">
+  <circle id="circle1"
+    r="20"
+    cx="195"
+    cy="80"
+    stroke="white"
+    stroke-width="1">
+    <animate attributeName="fill"
+    values="yellow;red;yellow"
+    dur="10s"
+    repeatCount="indefinite">
+  </animate>
+  <animate attributeName="r"
+    values="15;25;15"
+    dur="10s"
+    repeatCount="indefinite">
+  </animate>
+  </circle>
+<use href="#circle1" x="-150" y="230"></use>
+<use href="#circle1" x="90" y="320"></use>
+</g>
+
+<g fill="blue">
+  <circle id="circle2"
+    r="20"
+    cx="100"
+    cy="160"
+    stroke="white"
+    stroke-width="1">
+    <animate attributeName="fill"
+    values="blue;lightblue;blue"
+    dur="12s"
+    repeatCount="indefinite">
+  </animate>
+  <animate attributeName="r"
+    values="15;25;15"
+    dur="14s"
+    repeatCount="indefinite">
+  </animate>
+  </circle>
+<use href="#circle2" x="160" y="80"></use>
+<use href="#circle2" x="80" y="320"></use>
+</g>
+
+<g fill="red">
+  <circle id="circle3"
+    r="20"
+    cx="230"
+    cy="140"
+    stroke="white"
+    stroke-width="1">
+    <animate attributeName="fill"
+    values="red;yellow;red"
+    dur="16s"
+    repeatCount="indefinite">
+  </animate>
+  <animate attributeName="r"
+    values="25;15;25"
+    dur="9s"
+    repeatCount="indefinite">
+  </animate>
+  </circle>
+<use href="#circle3" x="-20" y="220"></use>
+<use href="#circle3" x="-170" y="360"></use>
+</g>
+
+<g fill="lightblue">
+  <circle id="circle4"
+    r="20"
+    cx="170"
+    cy="200"
+    stroke="white"
+    stroke-width="1">
+    <animate attributeName="fill"
+    values="lightblue;blue;lightblue"
+    dur="10s"
+    repeatCount="indefinite">
+  </animate>
+  <animate attributeName="r"
+    values="25;15;25"
+    dur="8s"
+    repeatCount="indefinite">
+  </animate>
+  </circle>
+<use href="#circle4" x="-50" y="200"></use>
+<use href="#circle4" x="100" y="320"></use>
+</g>
+</svg>
